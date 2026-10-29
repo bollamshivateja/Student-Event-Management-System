@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My First Web Page</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f4f8;
+            margin: 0;
+            padding: 30px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #2c3e50;
+            font-size: 36px;
+        }
+
+        h2 {
+            color: #0077b6;
+            margin-top: 25px;
+        }
+
+        p {
+            color: #555;
+            font-size: 18px;
+        }
+
+        ul {
+            list-style-type: square;
+            display: inline-block;
+            text-align: left;
+            color: #333;
+            font-size: 17px;
+        }
+
+        a {
+            color: #0077b6;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        a:hover {
+            color: #e63946;
+            text-decoration: underline;
+        }
+
+        button {
+            background-color: #0077b6;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #023e8a;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Welcome to My Website</h1>
+
+    <p>This is my first HTML program.</p>
+
+    <h2>About Me</h2>
+    <p>My name is Shiva.</p>
+
+    <h2>My Hobbies</h2>
+    <ul>
+        <li>Playing Games</li>
+        <li>Listening to Music</li>
+        <li>Learning Coding</li>
+    </ul>
+
+    <h2>My Favorite Website</h2>
+    <a href="https://www.google.com" target="_blank">Visit Google</a>
+
+    <br><br>
+
+    <button>Click Me</button>
+
+</body>
+</html>
